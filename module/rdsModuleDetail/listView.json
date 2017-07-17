@@ -1,0 +1,77 @@
+[
+{
+	"id": "795581332422922240",
+    "appid": "module",
+    "name": "rdsModuleDetailLitView",
+    "objectName": "rdsModuleDetail",
+    "parentid": "791146268943454208",
+    "type": "listView",
+    "description": "模块明细列表ListView",
+    "label": "模块明细列表ListView",
+    "layoutJson": {
+      "whereCondition": {},
+      "columns": [
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "moduleID",
+          "ascendingLabel": "Z-A",
+          "label": "模块ID",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "moduleDetailCode",
+          "ascendingLabel": "Z-A",
+          "label": "模块明细编码",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "mouldeDetailName",
+          "ascendingLabel": "Z-A",
+          "label": "模块明细名称",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "versions",
+          "ascendingLabel": "Z-A",
+          "label": "版本",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "statusLabel",
+          "ascendingLabel": "Z-A",
+          "label": "数据状态",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z",
+          "selectListItem": "statusLabel"
+        }
+      ],
+      "scope": "everything",
+      "limit": 10,
+      "orderBy": [],
+      "page": 1
+    }
+}
+]

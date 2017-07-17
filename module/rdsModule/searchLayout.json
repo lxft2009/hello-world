@@ -1,0 +1,45 @@
+﻿[{
+  "id":"795560461419417600",	
+  "parentid":"790868992909643776",
+  "appid": "module",
+  "objectName": "rdsModule",
+  "type": "searchLayout",
+  "name": "rdsModuleSearchLayout",
+  "layoutJson": {
+        		"configId": "bf16bae3-ab66-4f47-b5c9-6bb4ecde6af0",
+                "entityId": "790868992909643776",
+                "entity": "rdsModule",
+        		"columns":[
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "模块编码",
+                        "name": "moduleCode"
+                    },
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "模块名称",
+                        "name": "moduleName"
+                    },
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "款式分类id",
+                        "name": "styleTypeID"
+                    },
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "款式分类代码",
+                        "name": "styleTypeCode"
+                    }
+                ]
+         },
+        "description": "模块searchLayout定义"
+}
+]

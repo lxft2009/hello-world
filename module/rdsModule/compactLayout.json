@@ -1,0 +1,28 @@
+[{
+	"id": "795842541101518848",
+    "parentid": "790868992909643776",
+    "appid": "module",
+    "objectName": "rdsModule",
+    "type": "compactLayout",
+    "description": "模块详情页高亮布局",
+    "layoutJson": {
+        "configId": "77f2b16c-7975-4391-8948-d4ce17e845f4",
+        "entityId": "790868992909643776",
+        "entity": "rdsModule",
+        "columns": [
+            {
+                "fieldName": "moduleCode",
+                "lable": "模块编码"
+            },
+            {
+                "fieldName": "moduleName",
+                "lable": "模块名称"
+            },
+            {
+                "fieldName": "styleTypeCode",
+                "lable": "款式分类代码"
+            }
+        ],
+        "title": "模块管理"
+    }
+}]

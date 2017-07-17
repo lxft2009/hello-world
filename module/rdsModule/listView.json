@@ -1,0 +1,91 @@
+[{
+	"id": "795549967904149504",
+    "type": "listView",
+    "appid": "module",
+    "parentid": "790868992909643776",
+    "name": "rdsModule",
+    "objectName": "rdsModule",
+    "description": "模块列表描述",
+    "label": "模块列表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "moduleCode",
+                "ascendingLabel": "Z-A",
+                "label": "模块编码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "moduleCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "moduleName",
+                "ascendingLabel": "Z-A",
+                "label": "模块名称",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "moduleName"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "styleTypeID",
+                "ascendingLabel": "Z-A",
+                "label": "款式分类id",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "styleTypeID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "styleTypeCode",
+                "ascendingLabel": "Z-A",
+                "label": "款式分类代码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "styleTypeCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "versions",
+                "ascendingLabel": "Z-A",
+                "label": "版本",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "versions"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "statusLabel",
+                "ascendingLabel": "Z-A",
+                "label": "数据状态",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "statusLabel"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

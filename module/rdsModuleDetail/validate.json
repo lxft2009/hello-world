@@ -1,0 +1,57 @@
+﻿[
+	{
+		"objectName": "rdsModuleDetail",
+		"fieldName": "moduleID",
+		"type": "validate",
+		"appid": "module",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsModuleDetail",
+		"fieldName": "moduleDetailCode",
+		"type": "validate",
+		"appid": "module",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsModuleDetail",
+		"fieldName": "mouldeDetailName",
+		"type": "validate",
+		"appid": "module",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsModuleDetail",
+		"fieldName": "versions",
+		"type": "validate",
+		"appid": "module",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsModuleDetail",
+		"fieldName": "status",
+		"type": "validate",
+		"appid": "module",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+]

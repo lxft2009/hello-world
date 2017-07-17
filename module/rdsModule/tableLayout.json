@@ -1,0 +1,16 @@
+[
+    {
+		"id":"795562717606842368",
+        "type": "tableLayout",
+        "appid": "module",
+        "parentid": "790868992909643776",
+        "name": "rdsModuleGridLayout",
+        "objectName": "rdsModule",
+        "layoutJson": {
+                "configId": "bf16bae3-ab66-4f47-b5c9-6bb4ecde6af0",
+                "entityId": "790868992909643776",
+                "entity": "rdsModule"
+         },
+        "description": "模块tableLayout定义"
+    }
+]

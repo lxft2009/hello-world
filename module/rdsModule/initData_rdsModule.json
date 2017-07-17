@@ -1,0 +1,31 @@
+[
+    {
+        "type": "rdsModule",
+        "appid": "module",
+        "moduleCode": "177474060290",
+        "moduleName": "测试1",
+        "styleTypeID": "17747401",
+        "versions": "1",
+        "status": "790759338980413441",
+        "is_deleted":false
+    },
+    {
+        "type": "rdsModule",
+        "appid": "module",
+        "moduleCode": "177474060291",
+        "moduleName": "测试2",
+        "styleTypeID": "17747402",
+        "versions": "1",
+        "status": "790759338980413441"
+       
+    },{
+        "type": "rdsModule",
+        "appid": "module",
+        "moduleCode": "177474060292",
+        "moduleName": "测试3",
+        "styleTypeID": "17747403",
+        "versions": "1",
+        "status": "790759338980413441"
+       
+    }
+]

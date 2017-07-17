@@ -1,0 +1,136 @@
+[
+    {
+		"id":"795894476320018432",
+        "type": "formLayout",
+        "appid": "module",
+        "parentid": "790868992909643776",
+        "name": "rdsModuleFormLayout",
+        "objectName": "rdsModule",
+        "layoutJson":{
+                "gutterType": "two-row",
+                "inline": false,
+                "labelPosition": "top",
+                "configId": "77f2b16c-7975-4391-8948-d4ce17e845f4",
+                "ColumnLayout": [
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "moduleCode",
+                                        "componentTitle": "模块编码",
+                                        "componentName": "moduleCode",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入模块编码",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "moduleName",
+                                        "componentTitle": "模块名称",
+                                        "componentName": "moduleName",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请选择模块名称",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "styleTypeID",
+                                        "componentTitle": "款式分类id",
+                                        "componentName": "styleTypeID",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "styleTypeCode",
+                                        "componentTitle": "款式分类代码",
+                                        "componentName": "styleTypeCode",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入款式分类代码",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "format": "yyyy-MM-dd"
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "versions",
+                                        "componentTitle": "版本",
+                                        "componentName": "versions",
+                                        "tag": "MetaInputNumber",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入版本",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "status",
+                                        "componentTitle": "数据状态",
+                                        "componentName": "status",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入数据状态",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }
+                        ]
+                    }
+                ],
+                "entityId": "790868992909643776",
+                "entity": "rdsModule"
+            },
+        "description": "模块主表FormLayOut定义"
+	}
+]

@@ -1,0 +1,61 @@
+[
+{
+    "id": "795549462788313088",
+    "type": "layout",
+    "appid": "module",
+    "parentid": "",
+    "name": "detailLayout",
+    "description": "详情页布局",
+    "objectName": "",
+    "clientType":"pc",
+    "layoutType":"detail",
+    "layoutJson": {
+        "layoutModel": {
+        	"buttonSection": {},
+            "highLight": {},
+            "relatedLists": {},
+            "detailLayoutSection":{}
+        },
+        "dynamicLayout": []
+    }
+},
+{
+    "id": "795549649145434112",
+    "type": "layout",
+    "appid": "module",
+    "parentid": "",
+    "name": "listViewLayout",
+    "description": "listView布局",
+    "objectName": "",
+    "clientType": "pc",
+    "layoutType": "grid",
+    "layoutJson": {
+        "layoutModel": {
+            "buttonSection": {},
+            "tableSection": {},
+            "searchSection": {},
+            "listViewSelectSection":{},
+            "settingSection":{}
+        }
+    }
+},
+{
+    "id": "795549729973866496",
+    "type": "layout",
+    "appid": "module",
+    "parentid": "",
+    "name": "listViewChartLayout",
+    "description": "listViewChart布局",
+    "objectName": "",
+    "clientType": "pc",
+    "layoutType": "grid",
+    "layoutJson": {
+        "layoutModel": {
+            "buttonSection": {},
+            "tableSection": {},
+            "searchSection": {},
+            "chartSection":{}
+        }
+    }
+}
+]

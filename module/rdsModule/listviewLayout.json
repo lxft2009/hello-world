@@ -1,0 +1,34 @@
+[
+	{
+	    "id": "795551491254390784",
+	    "type": "listviewLayout",
+	    "appid": "module",
+	    "parentid": "790868992909643776",
+	    "objectName": "rdsModule",
+	    "description": "listview布局",
+	    "layoutJson": {
+	    	"entity":"rdsModule",
+	        "entityId":"790868992909643776",
+	        "configId":"bf16bae3-ab66-4f47-b5c9-6bb4ecde6af0",
+	        "label":"列表视图"
+	    },
+	    "category":"listview"
+	},
+	{
+	    "id": "795552955309756416",
+	    "type": "listviewLayout",
+	    "appid": "module",
+	    "parentid": "790868992909643776",
+	    "objectName": "rdsModule",
+	    "description": "settingbutton布局",
+	    "layoutJson": {
+	    	"label": "列表视图",
+        "parentEntity":"rdsModule",
+        "parentEntityId":"790868992909643776",
+        "configId":"bf16bae3-ab66-4f47-b5c9-6bb4ecde6af0",
+        "entity":"listView",
+        "entityId":"795549967904149504"
+	    },
+	    "category":"setting"
+	}
+]

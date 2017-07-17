@@ -1,0 +1,37 @@
+[{
+    "id": "795553844552536064",
+    "type": "relatedList",
+    "appid": "module",
+    "parentid": "790868992909643776",
+    "objectName": "rdsModule",
+    "name":"rdsModuleDetailRelatedList",
+    "description": "模块详情页相关子表布局",
+    "layoutJson": {
+    	"layoutType": "tab",
+        "items": [
+            {
+                "listViewId": "795581332422922240",
+                "linkIdName": "parentid",
+                "Editable":true,
+                "buttonSection": {
+                    "configId": "3814f80d-990b-4301-975b-a5895583963e",
+                    "btns": [
+                        {
+                            "name": "新建",
+                            "type": "new"
+                        }
+                    ],
+                    "entityId": "791146268943454208",
+                    "entity": "rdsModuleDetail"
+                },
+                "configId": "3814f80d-990b-4301-975b-a5895583963e",
+                "parentEntity": "rdsModule",
+                "entityId": "791146268943454208",
+                "label": "模块明细",
+                "parentEntityId": "790868992909643776",
+                "entity": "rdsModuleDetail",
+                "iconClass": "el-icon-star-on"
+            }          
+        ]
+    }
+}]

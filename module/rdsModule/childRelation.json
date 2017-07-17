@@ -1,0 +1,13 @@
+[
+	{
+		"type":"childRelation",
+		"name":"moduleDetailRelation",
+		"parentid":"790868992909643776",
+		"objectName":"rdsModule",
+		"childObjectName":"rdsModuleDetail",
+		"childFieldName":"parentid",
+		"restrictedDelete":false,
+		"deprecatedAndHidden":false,
+		"cascadeDelete":false
+	}
+]

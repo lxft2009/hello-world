@@ -1,0 +1,73 @@
+[
+    {
+		"id":"795483170597244928",
+        "type": "button",
+        "appid": "module",
+        "parentid": "790868992909643776",
+        "name": "rdsModuleButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "rdsModule",
+        "layoutJson":{
+        	"configId": "bf16bae3-ab66-4f47-b5c9-6bb4ecde6af0",
+            "entityId": "790868992909643776",
+            "entity": "rdsModule",
+            "btns": [
+                    {
+                        "name": "新建",
+                        "type": "new"
+                    },
+                    {
+                        "name": "删除",
+                        "type": "del"
+                    },
+                    {
+                        "columns": [
+                            {
+                                "id": "795485091722694656",
+                                "label": "记录状态",
+                                "name": "status",
+                                "objectName": "rdsModule",
+                                "type": "metaField"
+                            }
+                        ],
+                        "name": "提交",
+                        "type": "commit",
+                        "value": "790759338980413441"
+                    }
+                ]
+        },
+        "description": "模块GridButton定义"
+    },
+    {
+		"id":"795485388960436224",
+        "type": "button",
+        "appid": "module",
+        "parentid": "790868992909643776",
+        "name": "rdsModuleDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "rdsModule",
+        "layoutJson":{
+        	"configId": "77f2b16c-7975-4391-8948-d4ce17e845f4",
+            "entityId": "790868992909643776",
+            "entity": "rdsModule",
+            "layoutType":"detail",
+	        "btns": [
+	                    {
+	                        "name": "新建",
+	                        "type": "new"
+	                    },
+	                    {
+	                        "name": "编辑",
+	                        "type": "edit"
+	                    },
+	                    {
+	                        "name": "删除",
+	                        "type": "delete"
+	                    }
+	                ]
+        },
+        "description": "模块详情页Button定义"
+    }
+]

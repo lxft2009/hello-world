@@ -1,0 +1,37 @@
+[{
+    "id": "790868992909643776",
+    "appid": "module",
+    "type": "metaEntity",
+    "name": "rdsModule",
+    "mruEnabled": "true",
+    "updateable": "false",
+    "activateable": "true",
+    "deprecatedAndHidden": "false",
+    "layoutable": "true",
+    "custom": "true",
+    "deletable": "true",
+    "description": "存储模块主要信息",
+    "replicateable": "false",
+    "undeletable": "false",
+    "label": "模块主表",
+    "keyPrefix": "",
+    "searchable": "true",
+    "queryable": "true",
+    "mergeable": "false",
+    "urls": {
+        "layout": "",
+        "searchLayout": "",
+        "compactLayout": "",
+        "listView": "",
+        "action": "",
+        "validate": ""
+    },
+    "createable": "true",
+    "feedEnabled": "",
+    "retrieveable": "true",
+    "customSetting": "true",
+    "category": "user",
+    "labelPlural": "",
+    "triggerable": "true"
+}
+]

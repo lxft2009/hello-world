@@ -1,0 +1,124 @@
+[
+    {
+		"id":"795569021930967040",
+        "type": "formLayout",
+        "appid": "module",
+        "parentid": "791146268943454208",
+        "name": "rdsModuleDetailFormLayout",
+        "objectName": "rdsModuleDetail",
+        "layoutJson":{
+                "gutterType": "two-row",
+                "inline": false,
+                "labelPosition": "top",
+                "configId": "c954e4f5-d247-4da4-949d-0547326e84d6",
+                "entityId": "791146268943454208",
+                "entity": "rdsModuleDetail",
+                "ColumnLayout": [
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "moduleID",
+                                        "componentTitle": "模块ID",
+                                        "componentName": "moduleID",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入模块ID",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "moduleDetailCode",
+                                        "componentTitle": "模块明细编码",
+                                        "componentName": "moduleDetailCode",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入模块明细编码",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "mouldeDetailName",
+                                        "componentTitle": "模块明细名称",
+                                        "componentName": "mouldeDetailName",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入版本",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "versions",
+                                        "componentTitle": "版本",
+                                        "componentName": "versions",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入版本",
+                                                    "required": true
+                                                }
+                                            ]                                  
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "status",
+                                        "componentTitle": "数据状态",
+                                        "componentName": "status",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入数据状态",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }                           
+                        ]
+                    }                   
+                ]
+            },
+        "description": "模块明细FormLayOut定义"
+	}
+]
