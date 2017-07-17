@@ -1,0 +1,27 @@
+[
+    {
+        "id": "794142289084551168",
+        "parentid": "787611099687030784",
+        "appid": "goods",
+        "objectName": "gmsStorage",
+        "type": "chartLayout",
+        "name": "gmsStorageChartLayout",
+        "description": "成品在库查询图表布局",
+        "layoutJson": {
+            "configId": "07809064-6fd8-42a4-a083-2b9e50b434ed",
+            "entity": "gmsStorage",
+            "entityId": "787611099687030784",
+            "data": [
+                {
+                    "fieldName": "num",
+                    "title": "数量"
+                }
+            ],
+            "titleData": [
+                {
+                    "fieldName": "warehouse"
+                }
+            ]
+        }
+    }
+]

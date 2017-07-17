@@ -1,0 +1,13 @@
+﻿[
+	{
+		"type":"childRelation",
+		"name":"gmsOutstoragedetailRelation",
+		"parentid":"787610861748359168",
+		"objectName":"gmsOutstorage",
+		"childObjectName":"gmsOutstoragedetail",
+		"childFieldName":"parentid",
+		"restrictedDelete":false,
+		"deprecatedAndHidden":false,
+		"cascadeDelete":false
+	}
+]

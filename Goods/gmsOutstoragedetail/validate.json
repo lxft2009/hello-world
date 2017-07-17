@@ -1,0 +1,51 @@
+﻿[
+    {
+        "objectName": "gmsOutstoragedetail",
+        "fieldName": "outstoragedetailCode",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstoragedetail",
+        "fieldName": "subOrderNo",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstoragedetail",
+        "fieldName": "goodsId",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstoragedetail",
+        "fieldName": "num",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            },
+            "digits": {
+                "integer": 10,
+                "fraction": 0,
+                "message": "messages.digits"
+            }
+        }
+    }
+]

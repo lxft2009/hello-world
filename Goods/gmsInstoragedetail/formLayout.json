@@ -1,0 +1,166 @@
+[
+    {
+        "id": "794116161527615488",
+        "type": "formLayout",
+        "appid": "goods",
+        "parentid": "787610599222677504",
+        "name": "gmsInstoragedetailFormLayout",
+        "objectName": "gmsInstoragedetail",
+        "layoutJson": {
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "010e67ee-321d-4817-bf00-d5be2a894846",
+            "entityId": "787610599222677504",
+            "entity": "gmsInstoragedetail",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "instoragedetailCode",
+                                    "componentTitle": "入库明细号",
+                                    "componentName": "instoragedetailCode",
+                                    "tag": "MetaInput",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入库明细号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "orderId",
+                                    "componentTitle": "订单ID",
+                                    "componentName": "orderId",
+                                    "tag": "metaRelatedSelect",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入订单ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "workorderId",
+                                    "componentTitle": "工单ID",
+                                    "componentName": "workorderId",
+                                    "tag": "metaRelatedSelect",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入工单ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "goodsId",
+                                    "componentTitle": "成品ID",
+                                    "componentName": "goodsId",
+                                    "tag": "metaRelatedSelect",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入成品ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "location",
+                                    "componentTitle": "库位",
+                                    "componentName": "location",
+                                    "tag": "MetaInput",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入库位",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "num",
+                                    "componentTitle": "入库数量",
+                                    "componentName": "num",
+                                    "tag": "MetaInputNumber",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入库数量",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "status",
+                                    "componentTitle": "状态",
+                                    "componentName": "status",
+                                    "tag": "MetaInput",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入状态",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        "description": "成品入库明细FormLayout定义"
+    }
+]

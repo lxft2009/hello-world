@@ -1,0 +1,47 @@
+[
+    {
+        "triggerName": "triggerOnGmsInstoragedetail",
+        "action": [
+            "PATCH"
+        ],
+        "tableName": "gmsInstoragedetail",
+        "contextId": "ctx",
+        "referenceId": "rs",
+        "breakOnFailed": true,
+        "after": [],
+        "before": [
+            {
+                "when": "'@{ctx.request.status}'=='已入库'",
+                "method": "GET",
+                "url": "/v1/gmsInstoragedetail/@{ctx.request.id}",
+                "body": {},
+                "referenceId": "detailData",
+                "exit": "@{response.httpStatusCode} < 200 || @{response.httpStatusCode} >= 400"
+            },
+            {
+                "when": "'@{ctx.request.status}'=='已入库'",
+                "method": "POST",
+                "url": "/v1/abrain/bo/gmsStorage/",
+                "body": {
+                    "warehouse": "成品仓库",
+                    "location": "@{detailData.location}",
+                    "orderNo": "001",
+                    "workorderId": "@{detailData.workorderId}",
+                    "goodsId": "@{detailData.goodsId}",
+                    "num": "@{detailData.num}"
+                },
+                "exit": "@{response.httpStatusCode} < 200 || @{response.httpStatusCode} >= 400"
+            },
+            {
+                "when": "'@{ctx.request.status}'=='已入库'",
+                "method": "PATCH",
+                "url": "/v1/abrain/bo/ppsWorkOrder/@{detailData.workorderId}",
+                "body": {
+                    "woStatus": "已入库"
+                },
+                "exit": "@{response.httpStatusCode} < 200 || @{response.httpStatusCode} >= 400"
+            }
+        ],
+        "invoke": []
+    }
+]

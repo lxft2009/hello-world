@@ -1,0 +1,38 @@
+[
+    {
+        "id": "788339637159464960",
+        "appid": "goods",
+        "type": "gmsOutstorage",
+        "outstorageCode": "GO20170524012",
+        "orderNo": "SOA2017060800001",
+        "expName": "顺丰快递",
+        "expNo": "NO001",
+        "editUser": "张建鹏",
+        "editDatetime": "2017-06-15",
+        "is_deleted": false
+    },
+    {
+        "id": "788339675541540864",
+        "appid": "goods",
+        "type": "gmsOutstorage",
+        "outstorageCode": "GO20170527002",
+        "orderNo": "SOA2017060800002",
+        "expName": "顺丰快递",
+        "expNo": "NO002",
+        "editUser": "吕明",
+        "editDatetime": "2017-06-16",
+        "is_deleted": false
+    },
+    {
+        "id": "788339700497649664",
+        "appid": "goods",
+        "type": "gmsOutstorage",
+        "outstorageCode": "GO20170527001",
+        "orderNo": "SOA2017060800003",
+        "expName": "顺丰快递",
+        "expNo": "NO003",
+        "editUser": "陈伟旭",
+        "editDatetime": "2017-06-17",
+        "is_deleted": false
+    }
+]

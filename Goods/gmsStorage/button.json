@@ -1,0 +1,19 @@
+[
+    {
+        "id": "794138119795380224",
+        "type": "button",
+        "appid": "goods",
+        "parentid": "787611099687030784",
+        "name": "gmsStorageButtons",
+        "clientType": "pc",
+        "layoutType": "grid",
+        "objectName": "gmsStorage",
+        "layoutJson": {
+            "configId": "07809064-6fd8-42a4-a083-2b9e50b434ed",
+            "entityId": "787611099687030784",
+            "entity": "gmsStorage",
+            "btns": []
+        },
+        "description": "成品在库查询Button定义"
+    }
+]

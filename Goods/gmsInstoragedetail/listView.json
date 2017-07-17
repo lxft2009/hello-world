@@ -1,0 +1,87 @@
+[
+{
+    "id": "790496095057743872",
+    "appid": "goods",
+    "name": "gmsInstoragedetailLitView",
+    "objectName": "gmsInstoragedetail",
+    "parentid": "787610599222677504",
+    "type": "listView",
+    "description": "成品入库明细列表",
+    "label": "成品入库明细列表",
+    "layoutJson": {
+        "columns": [
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "入库明细号",
+                "name": "instoragedetailCode",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            },
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "工单ID",
+                "name": "workorderIdLabel",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            },
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "成品ID",
+                "name": "goodsIdLabel",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            },
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "入库数量",
+                "name": "num",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            },
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "库位",
+                "name": "location",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            },
+            {
+                "ascendingLabel": "Z-A",
+                "descendingLabel": "A-Z",
+                "hidden": false,
+                "label": "状态",
+                "name": "statusLabel",
+                "sortDirection": "ascending",
+                "sortIndex": 0,
+                "sortable": true,
+                "type": "string"
+            }
+        ],
+        "limit": 10,
+        "orderBy": [],
+        "page": 1,
+        "scope": "everything",
+        "whereCondition": {}
+    }
+}
+]

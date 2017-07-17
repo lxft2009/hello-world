@@ -1,0 +1,39 @@
+[
+    {
+        "id": "794089247182163968",
+        "type": "relatedList",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "objectName": "gmsInstorage",
+        "name": "gmsInstorageRelatedList",
+        "description": "成品入库单详情页相关子表布局",
+        "layoutJson": {
+            "layoutType": "tab",
+            "items": [
+                {
+                    "listViewId": "790496095057743872",
+                    "linkIdName": "parentid",
+                    "Editable":true,
+                    "buttonSection": {
+                        "configId": "52a03e6b-00af-425f-9e73-07cf039eded8",
+                        "btns": [
+                            {
+                                "name": "新建",
+                                "type": "new"
+                            }
+                        ],
+                        "entityId": "787610599222677504",
+                        "entity": "gmsInstoragedetail"
+                    },
+                    "configId": "52a03e6b-00af-425f-9e73-07cf039eded8",
+                    "parentEntity": "gmsInstorage",
+                    "parentEntityId": "787610491550699520",
+                    "entity": "gmsInstoragedetail",
+                    "entityId": "787610599222677504",
+                    "label": "入库明细",
+                    "iconClass": "el-icon-star-on"
+                }
+            ]
+        }
+    }
+]

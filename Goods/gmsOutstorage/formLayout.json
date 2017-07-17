@@ -1,0 +1,143 @@
+[
+    {
+        "id": "794198079585652736",
+        "type": "formLayout",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "name": "gmsOutstorageFormLayout",
+        "objectName": "gmsOutstorage",
+        "layoutJson": {
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "a4fe3e75-07a0-4f0f-b671-c6a62eadeaed",
+            "ColumnLayout": [
+                {
+                    "heading": "成品发货单信息",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "outstorageCode",
+                                    "componentTitle": "发货单号",
+                                    "tag": "MetaInput",
+                                    "componentName": "outstorageCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入发货单号",
+                                                "required": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "componentId": "orderNo",
+                                    "componentTitle": "销售单号",
+                                    "tag": "MetaInput",
+                                    "componentName": "orderNo",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入销售单号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "expName",
+                                    "componentTitle": "物流公司",
+                                    "tag": "MetaInput",
+                                    "componentName": "expName",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物流公司",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "expNo",
+                                    "componentTitle": "物流单号",
+                                    "tag": "MetaInput",
+                                    "componentName": "expNo",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物流单号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "editUser",
+                                    "componentTitle": "发货人",
+                                    "tag": "MetaInput",
+                                    "componentName": "editUser",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入发货人",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "editDatetime",
+                                    "componentTitle": "发货时间",
+                                    "tag": "MetaDatePicker",
+                                    "componentName": "editDatetime",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入发货时间",
+                                                "required": true
+                                            }
+                                        ],
+                                        "format": "yyyy-MM-dd",
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }
+                    ]
+                }
+            ],
+            "entityId": "787610861748359168",
+            "entity": "gmsOutstorage"
+        },
+        "description": "成品发货单FormLayout定义"
+    }
+]

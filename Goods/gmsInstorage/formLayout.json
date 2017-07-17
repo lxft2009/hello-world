@@ -1,0 +1,126 @@
+[
+    {
+        "id": "794086842445074432",
+        "type": "formLayout",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstorageFormLayout",
+        "objectName": "gmsInstorage",
+        "layoutJson": {
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "ac338548-2dc8-4c17-8697-9b6b04b724c0",
+            "ColumnLayout": [
+                {
+                    "heading": "成品入库单信息",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "instorageCode",
+                                    "componentTitle": "入库单号",
+                                    "tag": "MetaInput",
+                                    "componentName": "instorageCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入库单号",
+                                                "required": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "componentId": "inUser",
+                                    "componentTitle": "入库员",
+                                    "tag": "MetaInput",
+                                    "componentName": "inUser",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入库员",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "inDatetime",
+                                    "componentTitle": "入库日期",
+                                    "tag": "MetaDatePicker",
+                                    "componentName": "inDatetime",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入库日期",
+                                                "required": true
+                                            }
+                                        ],
+                                        "format": "yyyy-MM-dd",
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "location",
+                                    "componentTitle": "仓库",
+                                    "tag": "MetaInput",
+                                    "componentName": "location",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入仓库",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "status",
+                                    "componentTitle": "状态",
+                                    "tag": "MetaInput",
+                                    "componentName": "status",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入状态",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }
+                    ]
+                }
+            ],
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage"
+        },
+        "description": "成品入库单FormLayout定义"
+    }
+]

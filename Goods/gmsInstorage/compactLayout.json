@@ -1,0 +1,39 @@
+[
+    {
+        "id": "794085944255844352",
+        "type": "compactLayout",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstorageCompactLayout",
+        "objectName": "gmsInstorage",
+        "description": "成品入库单详情页高亮布局",
+        "layoutJson": {
+            "configId": "ac338548-2dc8-4c17-8697-9b6b04b724c0",
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage",
+            "columns": [
+                {
+                    "name": "instorageCode",
+                    "lable": "入库单号"
+                },
+                {
+                    "name": "inUser",
+                    "lable": "入库员"
+                },
+                {
+                    "name": "inDatetime",
+                    "lable": "入库日期"
+                },
+                {
+                    "name": "location",
+                    "lable": "仓库"
+                },
+                {
+                    "name": "status",
+                    "lable": "状态"
+                }
+            ],
+            "title": "成品入库单"
+        }
+    }
+]

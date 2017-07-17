@@ -1,0 +1,53 @@
+[
+    {
+        "id": "788586120240697344",
+        "type": "searchLayout",
+        "appid": "goods",
+        "parentid": "787611099687030784",
+        "name": "gmsStorageSearchLayout",
+        "objectName": "gmsStorage",
+        "layoutJson": {
+            "configId": "07809064-6fd8-42a4-a083-2b9e50b434ed",
+            "entityId": "787611099687030784",
+            "entity": "gmsStorage",
+            "columns": [
+                {
+                    "name": "warehouse",
+                    "label": "仓库",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "location",
+                    "label": "库位",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "orderNo",
+                    "label": "销售单号",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "workorderId",
+                    "label": "工单ID",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "goodsId",
+                    "label": "成品ID",
+                    "config": {
+                        "size": "small"
+                    }
+                }
+            ]
+        },
+        "description": "成品在库查询searchLayout定义"
+    }
+]

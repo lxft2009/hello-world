@@ -1,0 +1,46 @@
+﻿[
+    {
+        "objectName": "gmsInstorage",
+        "fieldName": "instorageCode",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstorage",
+        "fieldName": "inUser",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstorage",
+        "fieldName": "inDatetime",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstorage",
+        "fieldName": "location",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    }
+]

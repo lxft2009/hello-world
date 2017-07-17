@@ -1,0 +1,16 @@
+[
+    {
+        "id": "794209883632177152",
+        "type": "tableLayout",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "name": "gmsOutstorageTableLayout",
+        "objectName": "gmsOutstorage",
+        "layoutJson": {
+            "configId": "8e7a89a0-bea3-4d75-ab6b-61b35f50a7ad",
+            "entityId": "787610861748359168",
+            "entity": "gmsOutstorage"
+        },
+        "description": "成品发货单tableLayout定义"
+    }
+]

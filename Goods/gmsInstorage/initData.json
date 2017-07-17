@@ -1,0 +1,35 @@
+[
+    {
+        "id": "787991594354610176",
+        "appid": "goods",
+        "type": "gmsInstorage",
+        "instorageCode": "GI20170527002",
+        "inUser": "张建鹏",
+        "location": "成品仓库",
+        "inDatetime": "2017-05-27",
+        "status": "794025115737133056",
+        "is_deleted": false
+    },
+    {
+        "id": "787991739620134912",
+        "appid": "goods",
+        "type": "gmsInstorage",
+        "instorageCode": "GI20170615001",
+        "inUser": "张建鹏",
+        "location": "成品仓库",
+        "inDatetime": "2017-06-15",
+        "status": "794025115737133056",
+        "is_deleted": false
+    },
+    {
+        "id": "787991764534300672",
+        "appid": "goods",
+        "type": "gmsInstorage",
+        "instorageCode": "GI20170525009",
+        "inUser": "陈伟旭",
+        "location": "成品仓库",
+        "inDatetime": "2017-05-25",
+        "status": "794025115737133056",
+        "is_deleted": false
+    }
+]

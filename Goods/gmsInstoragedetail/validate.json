@@ -1,0 +1,51 @@
+﻿[
+    {
+        "objectName": "gmsInstoragedetail",
+        "fieldName": "instoragedetailCode",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstoragedetail",
+        "fieldName": "workorderId",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstoragedetail",
+        "fieldName": "location",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsInstoragedetail",
+        "fieldName": "num",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            },
+            "digits": {
+                "integer": 10,
+                "fraction": 0,
+                "message": "messages.digits"
+            }
+        }
+    }
+]

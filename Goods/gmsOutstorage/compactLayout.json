@@ -1,0 +1,43 @@
+[
+    {
+        "id": "794197346232569856",
+        "type": "compactLayout",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "name": "gmsOutstorageCompactLayout",
+        "objectName": "gmsOutstorage",
+        "description": "成品发货单详情页高亮布局",
+        "layoutJson": {
+            "configId": "a4fe3e75-07a0-4f0f-b671-c6a62eadeaed",
+            "entityId": "787610861748359168",
+            "entity": "gmsOutstorage",
+            "columns": [
+                {
+                    "name": "outstorageCode",
+                    "lable": "发货单号"
+                },
+                {
+                    "name": "orderNo",
+                    "lable": "销售单号"
+                },
+                {
+                    "name": "expName",
+                    "lable": "物流公司"
+                },
+                {
+                    "name": "expNo",
+                    "lable": "物流单号"
+                },
+                {
+                    "name": "editUser",
+                    "lable": "发货人"
+                },
+                {
+                    "name": "editDatetime",
+                    "lable": "发货时间"
+                }
+            ],
+            "title": "成品发货单"
+        }
+    }
+]

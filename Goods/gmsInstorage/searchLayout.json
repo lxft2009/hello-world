@@ -1,0 +1,53 @@
+[
+    {
+        "id": "788299128152002560",
+        "type": "searchLayout",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstorageSearchLayout",
+        "objectName": "gmsInstorage",
+        "layoutJson": {
+            "configId": "28d20bcc-bc15-4fb6-b320-79f61e49ceeb",
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage",
+            "columns": [
+                {
+                    "name": "instorageCode",
+                    "label": "入库单号",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "inUser",
+                    "label": "入库员",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "inDatetime",
+                    "label": "入库日期",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "location",
+                    "label": "仓库",
+                    "config": {
+                        "size": "small"
+                    }
+                },
+                {
+                    "name": "status",
+                    "label": "状态",
+                    "config": {
+                        "size": "small"
+                    }
+                }
+            ]
+        },
+        "description": "成品入库单searchLayout定义"
+    }
+]

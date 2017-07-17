@@ -1,0 +1,34 @@
+[
+    {
+        "id": "794510222910558208",
+        "type": "listviewLayout",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "objectName": "gmsOutstorage",
+        "description": "listview布局",
+        "layoutJson": {
+            "entity": "gmsOutstorage",
+            "entityId": "787610861748359168",
+            "configId": "8e7a89a0-bea3-4d75-ab6b-61b35f50a7ad",
+            "label": "列表视图"
+        },
+        "category": "listview"
+    },
+    {
+        "id": "794510245400416256",
+        "type": "listviewLayout",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "objectName": "gmsOutstorage",
+        "description": "settingbutton布局",
+        "layoutJson": {
+            "label": "列表视图",
+            "parentEntity": "gmsOutstorage",
+            "parentEntityId": "787610861748359168",
+            "configId": "8e7a89a0-bea3-4d75-ab6b-61b35f50a7ad",
+            "entity": "listView",
+            "entityId": "788590259792252928"
+        },
+        "category": "setting"
+    }
+]

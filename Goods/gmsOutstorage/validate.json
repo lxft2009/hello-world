@@ -1,0 +1,57 @@
+﻿[
+    {
+        "objectName": "gmsOutstorage",
+        "fieldName": "outstorageCode",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstorage",
+        "fieldName": "expName",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstorage",
+        "fieldName": "expNo",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstorage",
+        "fieldName": "editUser",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    },
+    {
+        "objectName": "gmsOutstorage",
+        "fieldName": "editDatetime",
+		"type": "validate",
+        "appid": "goods",
+        "validateJson": {
+            "required": {
+                "message": "messages.required"
+            }
+        }
+    }
+]

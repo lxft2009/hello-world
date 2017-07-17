@@ -1,0 +1,16 @@
+[
+    {
+        "id": "794102641457106944",
+        "type": "tableLayout",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstorageTableLayout",
+        "objectName": "gmsInstorage",
+        "layoutJson": {
+            "configId": "28d20bcc-bc15-4fb6-b320-79f61e49ceeb",
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage"
+        },
+        "description": "成品入库单tableLayout定义"
+    }
+]

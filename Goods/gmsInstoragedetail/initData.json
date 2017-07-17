@@ -1,0 +1,65 @@
+[
+    {
+        "parentid": "787991594354610176",
+        "appid": "goods",
+        "type": "gmsInstoragedetail",
+        "instoragedetailCode": "1",
+        "workorderId": "788286152934166529",
+        "goodsId": "788639002453348352",
+        "location": "A01",
+        "num": 100,
+        "status": "794025115737133056",
+        "orderId": "782973177474060290",
+        "is_deleted": false
+    },
+    {
+        "parentid": "787991594354610176",
+        "appid": "goods",
+        "type": "gmsInstoragedetail",
+        "instoragedetailCode": "2",
+        "workorderId": "788286152934166553",
+        "goodsId": "788639040999002112",
+        "location": "A02",
+        "num": 200,
+        "status": "794025115737133056",
+        "orderId": "782973177474060290",
+        "is_deleted": false
+    },
+    {
+        "parentid": "787991594354610176",
+        "appid": "goods",
+        "type": "gmsInstoragedetail",
+        "instoragedetailCode": "3",
+        "workorderId": "788286152934166554",
+        "goodsId": "788639068115177472",
+        "location": "A03",
+        "num": 300,
+        "status": "794025115737133056",
+        "orderId": "782973177474060290",
+        "is_deleted": false
+    },
+    {
+        "parentid": "787991739620134912",
+        "appid": "goods",
+        "type": "gmsInstoragedetail",
+        "instoragedetailCode": "1",
+        "workorderId": "788286152934166560",
+        "goodsId": "788639002453348352",
+        "location": "A04",
+        "num": 1000,
+        "status": "794025115737133056",
+        "is_deleted": false
+    },
+    {
+        "parentid": "787991764534300672",
+        "appid": "goods",
+        "type": "gmsInstoragedetail",
+        "instoragedetailCode": "1",
+        "workorderId": "788286152934166561",
+        "goodsId": "788639002453348352",
+        "location": "A05",
+        "num": 2000,
+        "status": "794025115737133056",
+        "is_deleted": false
+    }
+]

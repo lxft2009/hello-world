@@ -1,0 +1,38 @@
+[
+    {
+        "appid": "goods",
+        "type": "gmsStorage",
+        "warehouse": "成品仓库",
+        "location": "A01",
+        "orderNo": "SOA2017060800001",
+        "workorderId": "788286152934166528",
+        "goodsId": "788639002453348352",
+        "num": 100,
+        "remark": "无",
+        "is_deleted": false
+    },
+    {
+        "appid": "goods",
+        "type": "gmsStorage",
+        "warehouse": "成品仓库",
+        "location": "A02",
+        "orderNo": "SOA2017060800002",
+        "workorderId": "788286152934166529",
+        "goodsId": "788639040999002112",
+        "num": 200,
+        "remark": "无",
+        "is_deleted": false
+    },
+    {
+        "appid": "goods",
+        "type": "gmsStorage",
+        "warehouse": "成品仓库",
+        "location": "A03",
+        "orderNo": "SOA2017060800003",
+        "workorderId": "788286152934166530",
+        "goodsId": "788639068115177472",
+        "num": 300,
+        "remark": "无",
+        "is_deleted": false
+    }
+]

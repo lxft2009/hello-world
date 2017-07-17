@@ -1,0 +1,62 @@
+[
+    {
+        "parentid": "788339637159464960",
+        "appid": "goods",
+        "type": "gmsOutstoragedetail",
+        "outstoragedetailCode": "1",
+        "subOrderNo": "I2017060800001",
+        "goodsId": "788639002453348352",
+        "warehouse": "成品仓库",
+        "location": "A01",
+        "num": 100,
+        "is_deleted": false
+    },
+    {
+        "parentid": "788339637159464960",
+        "appid": "goods",
+        "type": "gmsOutstoragedetail",
+        "outstoragedetailCode": "2",
+        "subOrderNo": "I2017060800002",
+        "goodsId": "788639040999002112",
+        "warehouse": "成品仓库",
+        "location": "A02",
+        "num": 200,
+        "is_deleted": false
+    },
+    {
+        "parentid": "788339637159464960",
+        "appid": "goods",
+        "type": "gmsOutstoragedetail",
+        "outstoragedetailCode": "3",
+        "subOrderNo": "I2017060800003",
+        "goodsId": "788639068115177472",
+        "warehouse": "成品仓库",
+        "location": "A03",
+        "num": 300,
+        "is_deleted": false
+    },
+    {
+        "parentid": "788339675541540864",
+        "appid": "goods",
+        "type": "gmsOutstoragedetail",
+        "outstoragedetailCode": "1",
+        "subOrderNo": "I2017060800004",
+        "goodsId": "788639002453348352",
+        "warehouse": "成品仓库",
+        "location": "A01",
+        "num": 1000,
+        "is_deleted": false
+    },
+    {
+        "parentid": "788339700497649664",
+        "appid": "goods",
+        "type": "gmsOutstoragedetail",
+        "outstoragedetailCode": "1",
+        "subOrderNo": "I2017060800005",
+        "goodsId": "788639002453348352",
+        "warehouse": "成品仓库",
+        "location": "A01",
+        "num": 2000,
+        "is_deleted": false
+    }
+]

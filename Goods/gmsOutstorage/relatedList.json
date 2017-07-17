@@ -1,0 +1,39 @@
+[
+    {
+        "id": "794198907939721216",
+        "type": "relatedList",
+        "appid": "goods",
+        "parentid": "787610861748359168",
+        "objectName": "gmsOutstorage",
+        "name": "gmsOutstorageRelatedList",
+        "description": "成品发货单详情页相关子表布局",
+        "layoutJson": {
+            "layoutType": "tab",
+            "items": [
+                {
+                    "listViewId": "793408225901809664",
+                    "linkIdName": "parentid",
+                    "Editable": true,
+                    "buttonSection": {
+                        "configId": "40d38fcc-eab1-4e45-9889-2fa11485a9b4",
+                        "btns": [
+                            {
+                                "name": "新建",
+                                "type": "new"
+                            }
+                        ],
+                        "entityId": "787610985220280320",
+                        "entity": "gmsOutstoragedetail"
+                    },
+                    "configId": "40d38fcc-eab1-4e45-9889-2fa11485a9b4",
+                    "parentEntity": "gmsOutstorage",
+                    "parentEntityId": "787610861748359168",
+                    "entity": "gmsOutstoragedetail",
+                    "entityId": "787610985220280320",
+                    "label": "发货明细",
+                    "iconClass": "el-icon-star-on"
+                }
+            ]
+        }
+    }
+]

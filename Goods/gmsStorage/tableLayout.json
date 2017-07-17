@@ -1,0 +1,17 @@
+[
+    {
+        "id": "794141329675259904",
+        "type": "tableLayout",
+        "appid": "goods",
+        "parentid": "787611099687030784",
+        "name": "gmsStorageTableLayout",
+        "objectName": "gmsStorage",
+        "layoutJson": {
+            "listViewId": "788586017958400000",
+            "configId": "07809064-6fd8-42a4-a083-2b9e50b434ed",
+            "entityId": "787611099687030784",
+            "entity": "gmsStorage"
+        },
+        "description": "成品在库查询tableLayout定义"
+    }
+]

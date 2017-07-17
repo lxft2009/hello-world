@@ -1,0 +1,91 @@
+[{
+    "id": "788590259792252928",
+    "type": "listView",
+    "appid": "goods",
+    "parentid": "787610861748359168",
+    "name": "gmsOutstorageListView",
+    "objectName": "gmsOutstorage",
+    "description": "",
+    "label": "成品出库单列表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "outstorageCode",
+                "ascendingLabel": "Z-A",
+                "label": "发货单号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "outstorageCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "orderNo",
+                "ascendingLabel": "Z-A",
+                "label": "销售单号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "orderNo"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "expName",
+                "ascendingLabel": "Z-A",
+                "label": "物流公司",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "expName"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "expNo",
+                "ascendingLabel": "Z-A",
+                "label": "物流单号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "expNo"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "editUser",
+                "ascendingLabel": "Z-A",
+                "label": "发货人",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "editUser"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "editDatetime",
+                "ascendingLabel": "Z-A",
+                "label": "发货时间",
+                "sortable": true,
+                "type": "date",
+                "descendingLabel": "A-Z",
+                "selectListItem": "editDatetime"
+            }
+        ],
+        "scope": "everything",
+        "limit": 30,
+        "orderBy": [],
+        "page": 1
+    }
+}]

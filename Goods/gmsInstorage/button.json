@@ -1,0 +1,59 @@
+[
+    {
+        "id": "794082531275182080",
+        "type": "button",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstorageButtons",
+        "clientType": "pc",
+        "layoutType": "grid",
+        "objectName": "gmsInstorage",
+        "layoutJson": {
+            "configId": "28d20bcc-bc15-4fb6-b320-79f61e49ceeb",
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage",
+            "btns": [
+                {
+                    "name": "新建",
+                    "type": "new"
+                },
+                {
+                    "name": "删除",
+                    "type": "del"
+                }
+            ]
+        },
+        "description": "成品入库单Button定义"
+    },
+    {
+        "id": "794083730552524800",
+        "type": "button",
+        "appid": "goods",
+        "parentid": "787610491550699520",
+        "name": "gmsInstoragedetailButtons",
+        "clientType": "pc",
+        "layoutType": "detail",
+        "objectName": "gmsInstorage",
+        "layoutJson": {
+            "configId": "ac338548-2dc8-4c17-8697-9b6b04b724c0",
+            "entityId": "787610491550699520",
+            "entity": "gmsInstorage",
+            "layoutType": "detail",
+            "btns": [
+                {
+                    "name": "新建",
+                    "type": "new"
+                },
+                {
+                    "name": "编辑",
+                    "type": "edit"
+                },
+                {
+                    "name": "删除",
+                    "type": "delete"
+                }
+            ]
+        },
+        "description": "成品入库单详情页Button定义"
+    }
+]
